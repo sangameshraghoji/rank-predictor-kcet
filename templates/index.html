@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict KCET Rank</title>
+</head>
+<body>
+	<h1>Predict KCET Rank</h1>
+	<form method="POST" action="/predict">
+
+
+		<label for="board_marks">PUC Board Exam Marks(out of 300):</label>
+		<input type="number" name="board_marks" required><br><br>
+
+		<label for="kcet_marks">KCET Marks(out of 180):</label>
+		<input type="number" name="kcet_marks" required><br><br>
+
+		<input type="submit" value="Predict Rank">
+	</form>
+</body>
+</html>
